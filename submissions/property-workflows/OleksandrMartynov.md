@@ -21,7 +21,7 @@
 - `/api/health`: https://property-workflows-rho.vercel.app/api/health
 - Зелений прогін `smoke` на `main`: https://github.com/OleksandrMartynov/property-workflows/actions/runs/41442495542
 - `accounts.zip` на SHA: https://github.com/OleksandrMartynov/property-workflows/blob/56724204d5c3c223ccf3967d14c6f10e645e5acd/accounts.zip
-- Ролі тестових акаунтів: адміністратор — pm-admin@example.test, admin@example.test, admin.c@example.test; менеджер — pm-manager@example.test, manager.a@example.test, manager.b@example.test, manager.c@example.test, manager.d@example.test (без запусків, для AC-DSYS-04); підрядник (vendor, зріз 3) — pm-vendor@example.test, vendor.v@example.test
+- Ролі тестових акаунтів: адміністратор — pm-admin@example.test, admin@example.test, admin.c@example.test; менеджер — pm-manager@example.test, manager.a@example.test, manager.b@example.test, manager.c@example.test, manager.d@example.test; підрядник — pm-vendor@example.test, vendor.v@example.test
 - Версія `next`: next@16.4.3
 
 ### Шар якості для 3 AC
