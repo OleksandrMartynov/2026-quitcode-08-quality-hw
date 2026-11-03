@@ -30,7 +30,7 @@
 - QA proof pack: https://github.com/OleksandrMartynov/property-workflows/blob/56724204d5c3c223ccf3967d14c6f10e645e5acd/docs/qa/proof-pack.md
 - Ворота — PR із розбором знахідок (A): https://github.com/OleksandrMartynov/property-workflows/pull/48
 - Ворота — зелений прогін `quality` на `main` (A): https://github.com/OleksandrMartynov/property-workflows/actions/runs/41442442657
-- Ворота — обов'язкові перевірки в `solo-main` (A): «Ворота: fallow audit», «Покриття: доменна підлога» — додано 02.11.2026, після зеленого прогону `quality` на `main`
+- Ворота — обов'язкові перевірки в `solo-main` (A): «Ворота: fallow audit», «Покриття: доменна підлога» — додано 02.11.2026, після зеленого прогону `quality` на `main`; ruleset: https://github.com/OleksandrMartynov/property-workflows/rules/25405104
 - Якість тестів — PR (B): https://github.com/OleksandrMartynov/property-workflows/pull/51
 - Якість тестів — убитий мутант (B): `src/lib/supabase/public-paths.ts:7` `startsWith` → `endsWith` → AC-EDITOR-09 → https://github.com/OleksandrMartynov/property-workflows/blob/56724204d5c3c223ccf3967d14c6f10e645e5acd/tests/auth/public-paths.test.ts#L24
 - SQL-мутація (B): https://github.com/OleksandrMartynov/property-workflows/pull/51 — E7a, E7b (AC-EDITOR-07, `template_versions_select`) і P1 → KILLED
@@ -38,7 +38,7 @@
 - UAT — звіт на проді (C): https://github.com/OleksandrMartynov/property-workflows/blob/56724204d5c3c223ccf3967d14c6f10e645e5acd/docs/qa/uat/2026-11-02/report.md
 - UAT — PR зі звітом і відео (C): https://github.com/OleksandrMartynov/property-workflows/pull/74
 - UAT — негативний контроль (C): https://github.com/OleksandrMartynov/property-workflows/pull/74 — NC-1 (навмисно хибне очікування в тесті) → FAIL (R1); NC-2 («Тоді» у вимозі змінено, тест і застосунок — ні) → NEEDS-HUMAN (R3: тест зелений, Haiku і Sonnet — FAIL)
-- Рядки `docs/conformance.md` (C): AC-EDITOR-07 (реалізовано, UAT PASS), AC-EDITOR-09 (реалізовано, UAT PASS), AC-DSYS-04 (реалізовано, UAT PASS)
+- Рядки `docs/conformance.md` (C): AC-EDITOR-07 (реалізовано, UAT PASS) — https://github.com/OleksandrMartynov/property-workflows/blob/56724204d5c3c223ccf3967d14c6f10e645e5acd/docs/conformance.md#L72, AC-EDITOR-09 (реалізовано, UAT PASS) — https://github.com/OleksandrMartynov/property-workflows/blob/56724204d5c3c223ccf3967d14c6f10e645e5acd/docs/conformance.md#L74, AC-DSYS-04 (реалізовано, UAT PASS) — https://github.com/OleksandrMartynov/property-workflows/blob/56724204d5c3c223ccf3967d14c6f10e645e5acd/docs/conformance.md#L98
 - Eval рецензента — PR з вадами, не злитий (D): https://github.com/OleksandrMartynov/property-workflows/pull/62
 - Eval рецензента — таблиця й ключ (D): https://github.com/OleksandrMartynov/property-workflows/pull/62#issuecomment-6572058630
 - Eval рецензента — правило й повторний прогін (D): правило https://github.com/OleksandrMartynov/property-workflows/commit/3191d27c8bb2ca53289dc4fed76fc4bafe5c5ae8 (PR #65), повторний прогін https://github.com/OleksandrMartynov/property-workflows/pull/62#issuecomment-6572536347
